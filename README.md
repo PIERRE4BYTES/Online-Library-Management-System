@@ -26,27 +26,6 @@ This project is intended for academic use and demonstrates clean code organizati
 
 ---
 
-## 📂 Project Structure
-Online-Library-Management-System/
-│
-├── src/
-│ ├── Book.h
-│ ├── Book.cpp
-│ ├── User.h
-│ ├── User.cpp
-│ ├── Library.h
-│ ├── Library.cpp
-│ └── main.cpp
-│
-├── tests/
-│ └── LibraryTests.cpp
-│
-├── README.md
-└── DOCUMENTATION.md
-
-
----
-
 ## ⚙️ How to Compile and Run
 
 ### Compile the main program
@@ -54,6 +33,7 @@ Online-Library-Management-System/
 g++ src/*.cpp -o library
 Run the program
 ./library
+
 🧪 Run Tests
 g++ tests/LibraryTests.cpp src/Book.cpp src/User.cpp src/Library.cpp -o tests
 ./tests
